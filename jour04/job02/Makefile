@@ -5,7 +5,7 @@ OBJ	=	$(SRC:.c=.o)
 
 FLAGS = -Wall -Werror -Wextra
 
-NAME	=	pointeur1
+NAME	=	my_pointer_add
 
 all:	$(NAME)
 
