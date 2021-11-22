@@ -5,7 +5,7 @@ OBJ	=	$(SRC:.c=.o)
 
 FLAGS = -Wall -Werror -Wextra
 
-NAME	=	my_pointer_add
+NAME	=	my_pointer_count
 
 all:	$(NAME)
 
