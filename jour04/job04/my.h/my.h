@@ -12,6 +12,6 @@ void    my_putchar(char);
 void    my_putstr(char *);
 int my_strlen(char*);
 
-void    my_pointer_swap(int *, int *);
+void    my_pointer_swap(int*, int*);
 
 #endif /* !MY_H_ */

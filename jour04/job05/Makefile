@@ -5,7 +5,7 @@ OBJ	=	$(SRC:.c=.o)
 
 FLAGS = -Wall -Werror -Wextra
 
-NAME	=	my_pointer_count
+NAME	=	my_pointer_min_max
 
 all:	$(NAME)
 

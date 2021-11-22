@@ -12,6 +12,6 @@ void    my_putchar(char);
 void    my_putstr(char *);
 int my_strlen(char*);
 
-int    my_pointer_count(char *);
+void    my_pointer_min_max(int *, int*, int*);
 
 #endif /* !MY_H_ */
