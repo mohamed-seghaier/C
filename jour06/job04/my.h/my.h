@@ -7,10 +7,13 @@
 #include <string.h>
 
 int main(int, char **);
+void    my_draw_square(int, int);
+void    my_draw_lines(int);
 
 void    my_putchar(char);
 void    my_putstr(char *);
 int my_strlen(char*);
+int my_getnbr(char *);
 
 
 #endif /* !MY_H_ */

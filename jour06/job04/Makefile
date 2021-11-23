@@ -1,11 +1,11 @@
 SRC	=	./main.c		\
-		./my_puts.c		\
+		./utils.c		\
 
 OBJ	=	$(SRC:.c=.o)
 
 FLAGS = -Wall -Werror -Wextra
 
-NAME	=	my_show_arg
+NAME	=	my_draw_square
 
 all:	$(NAME)
 

@@ -1,5 +1,5 @@
 SRC	=	./main.c		\
-		./my_puts.c		\
+		./utils.c		\
 
 OBJ	=	$(SRC:.c=.o)
 
