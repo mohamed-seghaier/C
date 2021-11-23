@@ -31,3 +31,19 @@ int my_getnbr(char *str) {
     }
     return res * neg;
 }
+
+void    my_putnbr(int nb) {
+    if (nb < 0) {
+        my_putchar('-');
+        my_putnbr(nb * -1);
+    }
+    else if (nb > 9) {
+        my_putnbr(nb / 10);
+        my_putnbr(nb % 10);
+    }
+    else my_putchar(nb + 48);
+}
+
+void my_memset(char *str, int size) {
+    for (int i = 0; i < size; i += 1) str[i] = 0;
+}

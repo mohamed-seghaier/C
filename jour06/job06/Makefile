@@ -1,11 +1,12 @@
 SRC	=	./main.c		\
 		./utils.c		\
+		./add.c			\
 
 OBJ	=	$(SRC:.c=.o)
 
 FLAGS = -Wall -Werror -Wextra
 
-NAME	=	my_show_arg
+NAME	=	my_add_inf
 
 all:	$(NAME)
 

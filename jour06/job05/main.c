@@ -26,7 +26,7 @@ int error_gest(int argc, char **argv) {
         return -1;
     }
 
-    if (is_a_num(argv[1]) != -1 || is_a_num(argv[2]) != -1) {
+    if (is_a_num(argv[1]) == -1 || is_a_num(argv[2]) == -1) {
         my_putstr("Arguments invalides, veuillez entrer des entiers strictement positifs.\n");
         return -1;
     }
