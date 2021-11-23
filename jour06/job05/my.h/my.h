@@ -7,7 +7,10 @@
 #include <string.h>
 
 int main(int, char **);
-int my_add(int, int);
+void    my_draw_square(int, int);
+void    my_draw_lines(int);
+int error_gest(int, char **);
+int is_a_num(char *);
 
 void    my_putchar(char);
 void    my_putstr(char *);
