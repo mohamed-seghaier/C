@@ -5,7 +5,7 @@ OBJ	=	$(SRC:.c=.o)
 
 FLAGS = -Wall -Werror -Wextra
 
-NAME	=	my_add_inf
+NAME	=	my_ucfirst
 
 all:	$(NAME)
 
