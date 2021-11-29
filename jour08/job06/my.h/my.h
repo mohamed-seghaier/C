@@ -7,9 +7,7 @@
 #include <string.h>
 
 int main(void);
-char *my_epur(char *);
-int my_startspace(char *);
-int my_endspace(char *);
+int my_showtab(char **);
 
 
 void    my_putchar(char);

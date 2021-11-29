@@ -5,7 +5,7 @@ OBJ	=	$(SRC:.c=.o)
 
 FLAGS = -Wall -Werror -Wextra
 
-NAME	=	my_epur
+NAME	=	my_freetab
 
 all:	$(NAME)
 

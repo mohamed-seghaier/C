@@ -47,3 +47,11 @@ void    my_putnbr(int nb) {
 void my_memset(char *str, int size) {
     for (int i = 0; i < size; i += 1) str[i] = 0;
 }
+
+int my_showtab(char **tab) {
+    if (tab == NULL) return -1;
+
+    for (int i = 0; tab[i]; i += 1) my_putstr(tab[i]);
+
+    return 0;
+}
