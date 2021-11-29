@@ -5,7 +5,7 @@ OBJ	=	$(SRC:.c=.o)
 
 FLAGS = -Wall -Werror -Wextra
 
-NAME	=	my_show_tab
+NAME	=	is_even
 
 all:	$(NAME)
 

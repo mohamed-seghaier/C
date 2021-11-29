@@ -7,9 +7,13 @@
 #include <string.h>
 
 int main(void);
+int is_even(int);
+
+void    my_freetab(char **);
+int count_space(char *);
+int count_malloc(char *, int);
+char **my_strtowordtab(char *);
 int my_showtab(char **);
-
-
 void    my_putchar(char);
 void    my_putstr(char *);
 void    my_putnbr(int);
