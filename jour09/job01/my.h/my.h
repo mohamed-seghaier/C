@@ -6,9 +6,11 @@
 #include <unistd.h>
 #include <string.h>
 
+#define TRUE 1
+#define FALSE 0
+
+
 int main(void);
-int is_even(int);
-int count_even_nb(int *, int);
 
 void    my_freetab(char **);
 int count_space(char *);

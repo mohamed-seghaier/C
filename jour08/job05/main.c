@@ -10,5 +10,5 @@ int main(void)
 
 int
 is_even(int nb) {
-    return nb % 2;
+    return nb % 2 == 0 ? 1 : 0;
 }

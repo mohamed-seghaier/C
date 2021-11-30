@@ -6,10 +6,20 @@
 #include <unistd.h>
 #include <string.h>
 
-int main(void);
-int is_even(int);
-int count_even_nb(int *, int);
+#define TRUE 1
+#define FALSE 0
 
+typedef struct s_personne {
+    char *prenom;
+    char *nom;
+    int age;
+} t_personne;
+
+int main(void);
+
+
+int my_clear_struct(t_personne *);
+int initialize_value(t_personne *);
 void    my_freetab(char **);
 int count_space(char *);
 int count_malloc(char *, int);
