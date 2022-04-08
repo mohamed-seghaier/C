@@ -7,9 +7,9 @@ int main(void)
     if ((personne = malloc(sizeof(t_personne))) == NULL) return 84;
     if (initialize_value(personne) == 84) return 84;
 
-    printf("%s, %s, %d", personne->nom, personne->prenom, personne->age);
+    printf("1 : %s %s, %d\n", personne->prenom, personne->nom, personne->age);
     my_clear_struct(personne);
-    printf("%s, %s, %d", personne->nom, personne->prenom, personne->age);
+    printf("2 : %s %s, %d", personne->prenom, personne->nom, personne->age);
     return 0;
 }
 
@@ -23,9 +23,9 @@ initialize_value(t_personne *personne) {
     
 
     if ((personne->prenom = malloc(sizeof(char) * strlen("jhon"))) == NULL) return 84;
-    personne->prenom = "jhon";
+    personne->prenom = "Jhon";
     if ((personne->nom = malloc(sizeof(char) * strlen("doe"))) == NULL) return 84;
-    personne->nom = "doe";
+    personne->nom = "Doe";
     personne->age = 42;
 
 

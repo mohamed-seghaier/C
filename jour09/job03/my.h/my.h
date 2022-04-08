@@ -9,11 +9,11 @@
 #define TRUE 1
 #define FALSE 0
 
-struct s_personne {
+typedef struct s_personne {
     char *prenom;
     char *nom;
     int age;
-};
+}t_personne;
 
 int main(void);
 

@@ -13,7 +13,7 @@ typedef struct s_personne {
     char *prenom;
     char *nom;
     int age;
-} t_personne;
+}t_personne;
 
 int main(void);
 
